@@ -1,0 +1,235 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #d2e4fa;
+    
+}
+
+
+
+
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+li {
+    list-style: none;
+    margin: 0 30px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#circle {
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 220px 40px 220px;
+}
+
+#name {
+    font-weight: 300;
+    font-size: 80px;
+    color: darkblue;
+    font-family: none;
+
+}
+
+#text_section {
+    text-align: left;
+
+}
+
+#hello {
+    font-size: 30px;
+
+}
+
+.home {
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: system-ui, -apple-system;
+    /* margin: 20px; */
+    font-size: 40px;
+}
+
+.btn_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 20px 20px 0;
+    height: 100px;
+    width: 200px;
+    font-size: 50px;
+    cursor: pointer;
+    text-wrap: inherit;
+
+}
+
+button {
+    margin: 30px;
+    border: 2px solid white;
+    border-radius: 25px;
+    width: 200px;
+    font-size: large;
+    /* padding: 20px 70px; */
+    padding: 15px 40px;
+    white-space: nowrap;
+    background-color: rgb(28, 28, 251);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#about_me {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 200px 50px 200px;
+    padding: 20px 50px;
+}
+
+.education {
+    height: 500px;
+    width: 500px;
+    border: 2px solid white;
+    border-radius: 20%;
+    background-color: rgb(0, 0, 154);
+    color: #fff;
+    margin-top: 100px;
+}
+
+.about_me h1 {
+    font-size: 80px;
+    color: rgb(2, 2, 95);
+
+}
+
+.text_section1 p {
+    font-size: 30px;
+    padding-right: 40px;
+}
+
+.education p {
+    font-size: 30px;
+    padding: 2.5rem 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.education h2 {
+    text-align: center;
+}
+
+
+.more_about_me {
+    height: 200px;
+    width: 710px;
+}
+
+.contact_info h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.info{
+    display:flex;
+    align-items:center;
+    gap:40px;
+    margin: 20px 280px;
+    height: 100px;
+    width: auto;
+
+}
+
+.info p, 
+.info a{
+    font-size:26px;
+    text-decoration: none;
+}
+
+.info a{
+    cursor: pointer;
+}
+
+#github {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap:10px;
+     height: 100px;
+    width: auto;
+}
+
+#github img {
+    height: 50px;
+    width: auto;
+    padding: 0px 0px 0px 50px;
+
+}
+
+#linkedin {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap:10px;
+}
+#linkedin img {
+    height: 90px;
+    width: auto;
+    padding: 0px 0px 0px 50px;
+}
+
+#phone {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap:10px;
+}
+#phone img{
+    height: 50px;
+    width: auto;
+    padding: 0px 0px 0px 50px;
+}
+
+footer{
+    display: block;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    height: 20px;
+    width: 100%;
+    font-size: 20px;
+    position: relative;
+    bottom: 0px;
+}
